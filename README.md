@@ -46,19 +46,22 @@ Below are sample detection results showing brain tumor detection on CT scans. Th
 
 
 Folder Structure
-plaintext
-Copy code
+```plaintext
+
 .
 ├── app.py                  # Main Streamlit app
 ├── requirements.txt        # Required dependencies
 ├── README.md               # Project documentation
 ├── yolov10_weights         # Folder for model weights (update paths as needed)
 └── results                 # Folder for sample result images
-Dependencies
+
+```
+```Dependencies
 streamlit
 ultralytics
 pillow
 matplotlib
+```
 You can install all dependencies at once by using the requirements.txt file.
 
 Model Training
