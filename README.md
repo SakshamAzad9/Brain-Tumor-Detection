@@ -39,15 +39,12 @@ The app will display the original image and then run inference to detect any bra
 The processed image with detection annotations will be displayed along with additional model output information.
 Results
 Below are sample detection results showing brain tumor detection on CT scans. The left image is the original upload, and the right image is the model's detection output.
-```
-| Original Image |	Detection Result |
-|                |                   |
-|                |                   |
-```
+
+
+
 
 Folder Structure
 ```plaintext
-
 .
 ├── app.py                  # Main Streamlit app
 ├── requirements.txt        # Required dependencies
