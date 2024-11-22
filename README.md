@@ -40,7 +40,13 @@ The processed image with detection annotations will be displayed along with addi
 Results
 Below are sample detection results showing brain tumor detection on CT scans. The left image is the original upload, and the right image is the model's detection output.
 
+##Result
 
+```
+| Original Image                         | Detection Result                      |
+| -------------------------------------- | ------------------------------------- |
+| ![Original Image](results/output.png) | ![Detection Result](results/input.png) |
+```
 
 
 Folder Structure
