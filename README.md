@@ -42,11 +42,10 @@ Below are sample detection results showing brain tumor detection on CT scans. Th
 
 ##Result
 
-```
 | Original Image                         | Detection Result                      |
 | -------------------------------------- | ------------------------------------- |
 | ![Original Image](results/output.png) | ![Detection Result](results/input.png) |
-```
+
 
 
 Folder Structure
