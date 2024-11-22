@@ -1,6 +1,3 @@
-
-
-
 # Brain Tumor Detection with YOLO and Streamlit
 
 This repository contains a Streamlit web application that uses a YOLO model to detect brain tumors from CT scan images. The model was trained using the YOLOv10 architecture and is designed to perform inference on uploaded images to identify potential tumor regions.
@@ -34,46 +31,40 @@ Run the Streamlit app with the following command:
 ```bash
 streamlit run app.py
 ```
-
 Once the server is running, you can open the provided local URL in your web browser to access the app.
 
-### How to Use
-1. Upload a CT scan image in JPG or PNG format.
-2. The app will display the original image and then run inference to detect any brain tumor regions.
-3. The processed image with detection annotations will be displayed along with additional model output information.
+How to Use
+Upload a CT scan image in JPG or PNG format.
+The app will display the original image and then run inference to detect any brain tumor regions.
+The processed image with detection annotations will be displayed along with additional model output information.
+Results
+Below are sample detection results showing brain tumor detection on CT scans. The left image is the original upload, and the right image is the model's detection output.
 
-## Folder Structure
+| Original Image |	Detection Result |
+|                |                   |
+|                |                   |
 
-```plaintext
+
+Folder Structure
+plaintext
+Copy code
 .
 ├── app.py                  # Main Streamlit app
 ├── requirements.txt        # Required dependencies
 ├── README.md               # Project documentation
-└── yolov10_weights         # Folder for model weights (update paths as needed)
-```
+├── yolov10_weights         # Folder for model weights (update paths as needed)
+└── results                 # Folder for sample result images
+Dependencies
+streamlit
+ultralytics
+pillow
+matplotlib
+You can install all dependencies at once by using the requirements.txt file.
 
-## Dependencies
+Model Training
+This app uses a YOLO model trained on CT scan images for brain tumor detection. If you want to retrain the model, please refer to Ultralytics YOLO documentation for details on dataset preparation and model training.
 
-- `streamlit`
-- `ultralytics`
-- `pillow`
-- `matplotlib`
-  
-You can install all dependencies at once by using the `requirements.txt` file.
-
-## Model Training
-
-This app uses a YOLO model trained on CT scan images for brain tumor detection. If you want to retrain the model, please refer to [Ultralytics YOLO documentation](https://docs.ultralytics.com/) for details on dataset preparation and model training.
-
-## Future Improvements
-
-- Extend support for batch image processing.
-- Add options for different YOLO model versions.
-- Improve visualization of detection details.
-
-## License
-
-This project is licensed under the MIT License.
-```
-
-This README is in Markdown format, so it should render correctly when viewed on GitHub. Let me know if you'd like any adjustments!
+Future Improvements
+Extend support for batch image processing.
+Add options for different YOLO model versions.
+Improve visualization of detection details
