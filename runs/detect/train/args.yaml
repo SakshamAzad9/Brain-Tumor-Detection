@@ -1,7 +1,7 @@
 task: detect
 mode: train
 model: yolov10n.pt
-data: D:/LEARNING/COPMPUTER_VISION/brain-tumor-detection/data.yaml
+data: C:\Users\saksh\Test1\data.yaml
 epochs: 30
 time: null
 patience: 10

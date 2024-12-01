@@ -2,13 +2,13 @@ import streamlit as st
 from ultralytics import YOLO
 from PIL import Image
 import matplotlib.pyplot as plt
-import numpy as np
+import numpy as npz
 
 # Streamlit app title
 st.title("Brain Tumor Detection with YOLO")
 
 # Load YOLO model
-model_path = r'C:\Users\saksh\Test1\runs\detect\train5\weights\best.pt'
+model_path = r'C:\Users\saksh\Test1\runs\detect\train\weights\best.pt'
 trained_model = YOLO(model_path)
 
 # Image upload option
